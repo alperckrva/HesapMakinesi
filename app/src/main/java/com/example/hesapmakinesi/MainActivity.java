@@ -366,6 +366,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else{
                         cevap=sayi/islenenSayi;
+                        sonucEkrani.setText(Double.toString(cevap));
                         break;
                     }
                 }
