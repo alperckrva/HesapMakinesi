@@ -121,6 +121,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 sonucEkrani.setText("");
                 label.setText("");
+                sayi=0;
+                cevap=0;
             }
         });
 
